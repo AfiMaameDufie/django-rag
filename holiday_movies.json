@@ -1,0 +1,458 @@
+{
+  "movies": [
+    {
+      "_id": 1,
+      "title": "It’s a Wonderful Life",
+      "plot": "An angel is sent from Heaven to help a desperately frustrated businessman by showing him what life would have been like if he had never existed.",
+      "runtime": 130,
+      "released": "1946-12-20T00:00:00Z",
+      "genres": ["Drama", "Family", "Fantasy"],
+      "awards": {
+        "wins": 0,
+        "nominations": 5,
+        "text": "Nominated for 5 Oscars"
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 2,
+      "title": "Miracle on 34th Street",
+      "plot": "A department‑store Santa claims to be the real Santa Claus, and a court case aims to determine his authenticity.",
+      "runtime": 96,
+      "released": "1947-11-27T00:00:00Z",
+      "genres": ["Comedy", "Drama", "Family"],
+      "awards": {
+        "wins": 3,
+        "nominations": 4,
+        "text": "Won 3 Oscars"
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 3,
+      "title": "Holiday Inn",
+      "plot": "A nightclub performer and his partner open an inn that’s only open on holidays — including Christmas — and complications arise when love and jealousy intervene.",
+      "runtime": 100,
+      "released": "1942-08-06T00:00:00Z",
+      "genres": ["Musical", "Romance", "Comedy"],
+      "awards": {
+        "wins": 1,
+        "nominations": 0,
+        "text": "Won 1 Oscar (for the song “White Christmas”)"
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 4,
+      "title": "White Christmas",
+      "plot": "Two war buddies become a song‑and‑dancing team, and decide to help their former general by putting on a show at his Vermont inn during Christmas time.",
+      "runtime": 120,
+      "released": "1954-10-14T00:00:00Z",
+      "genres": ["Musical", "Romance", "Family"],
+      "awards": {
+        "wins": 0,
+        "nominations": 1,
+        "text": "Nominated for 1 Oscar"
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 5,
+      "title": "A Christmas Story",
+      "plot": "In 1940s Indiana, young Ralphie Parker desperately wants a Red Ryder BB gun for Christmas and repeatedly attempts to convince his parents, his teacher and Santa that he deserves it.",
+      "runtime": 94,
+      "released": "1983-11-18T00:00:00Z",
+      "genres": ["Comedy", "Family"],
+      "awards": {
+        "wins": 0,
+        "nominations": 0,
+        "text": ""
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 6,
+      "title": "How the Grinch Stole Christmas!",
+      "plot": "The Grinch, a bitter creature who lives above the town of Whoville, decides to ruin Christmas for the Whos — until a little girl’s kindness changes him.",
+      "runtime": 26,
+      "released": "1966-12-18T00:00:00Z",
+      "genres": ["Animation", "Family", "Fantasy"],
+      "awards": {
+        "wins": 0,
+        "nominations": 0,
+        "text": ""
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 7,
+      "title": "Scrooged",
+      "plot": "A cynical and selfish television executive is visited by three ghosts on Christmas Eve, forcing him to re‑examine his life and priorities.",
+      "runtime": 100,
+      "released": "1988-11-23T00:00:00Z",
+      "genres": ["Comedy", "Fantasy", "Christmas"],
+      "awards": {
+        "wins": 0,
+        "nominations": 1,
+        "text": "Nominated for 1 Oscar (Makeup)"
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 8,
+      "title": "Home Alone",
+      "plot": "An eight‑year‑old boy defends his home from two burglars when his family accidentally leaves him behind on their Christmas vacation.",
+      "runtime": 103,
+      "released": "1990-11-16T00:00:00Z",
+      "genres": ["Comedy", "Family"],
+      "awards": {
+        "wins": 0,
+        "nominations": 0,
+        "text": ""
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 9,
+      "title": "The Santa Clause",
+      "plot": "An ordinary man accidentally causes Santa Claus to fall from his roof on Christmas Eve. He and his young son finish Santa’s trip and then he learns he must become the new Santa.",
+      "runtime": 97,
+      "released": "1994-11-11T00:00:00Z",
+      "genres": ["Comedy", "Family", "Fantasy"],
+      "awards": {
+        "wins": 0,
+        "nominations": 0,
+        "text": ""
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 10,
+      "title": "Elf",
+      "plot": "Raised as an elf at the North Pole, Buddy travels to New York in search of his real father and discovers the meaning of Christmas in the process.",
+      "runtime": 97,
+      "released": "2003-11-07T00:00:00Z",
+      "genres": ["Comedy", "Family", "Fantasy"],
+      "awards": {
+        "wins": 0,
+        "nominations": 0,
+        "text": ""
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 11,
+      "title": "The Polar Express",
+      "plot": "On Christmas Eve, a doubting young boy boards a magical train that’s heading to the North Pole, and embarks on a journey of self‑discovery and belief.",
+      "runtime": 100,
+      "released": "2004-11-10T00:00:00Z",
+      "genres": ["Animation", "Adventure", "Family"],
+      "awards": {
+        "wins": 0,
+        "nominations": 0,
+        "text": ""
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 12,
+      "title": "A Charlie Brown Christmas",
+      "plot": "Charlie Brown tries to find the true meaning of Christmas in the midst of commercialism, while directing the neighbourhood Christmas play and befriending the depressed Linus.",
+      "runtime": 25,
+      "released": "1965-12-09T00:00:00Z",
+      "genres": ["Animation", "Family", "Music"],
+      "awards": {
+        "wins": 0,
+        "nominations": 0,
+        "text": ""
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 13,
+      "title": "Rudolph the Red‑Nosed Reindeer",
+      "plot": "Rudolph, a misfit reindeer with a glowing red nose, becomes a hero when he guides Santa’s sleigh through a terrible snowstorm.",
+      "runtime": 47,
+      "released": "1964-12-06T00:00:00Z",
+      "genres": ["Animation", "Family", "Fantasy"],
+      "awards": {
+        "wins": 0,
+        "nominations": 0,
+        "text": ""
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 14,
+      "title": "It Happened on 5th Avenue",
+      "plot": "During the Christmas holidays, a vagrant takes up residence in a vacant mansion in NYC along with others, only to have the owner and his family turn up unexpectedly.",
+      "runtime": 116,
+      "released": "1947-11-15T00:00:00Z",
+      "genres": ["Comedy", "Romance", "Family"],
+      "awards": {
+        "wins": 1,
+        "nominations": 2,
+        "text": "Won 1 Oscar"
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 15,
+      "title": "The Shop Around the Corner",
+      "plot": "Set at Christmas time in Budapest, two coworkers constantly prick each other yet unknowingly are writing lovestruck letters to one another under pseudonyms.",
+      "runtime": 98,
+      "released": "1940-10-17T00:00:00Z",
+      "genres": ["Romance", "Comedy"],
+      "awards": {
+        "wins": 0,
+        "nominations": 0,
+        "text": ""
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 16,
+      "title": "The Bishop’s Wife",
+      "plot": "An angel comes down to Earth to help a bishop who is struggling with his cathedral project — and he helps the bishop and his wife rediscover love and Christmas spirit.",
+      "runtime": 112,
+      "released": "1947-12-17T00:00:00Z",
+      "genres": ["Drama", "Fantasy", "Romance"],
+      "awards": {
+        "wins": 1,
+        "nominations": 0,
+        "text": "Won 1 Oscar"
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 17,
+      "title": "Christmas in Connecticut",
+      "plot": "A food writer who has lied about having a perfect home and family is invited to host a Christmas dinner for a returning war hero — and must scramble to keep up appearances.",
+      "runtime": 96,
+      "released": "1945-03-30T00:00:00Z",
+      "genres": ["Romance", "Comedy", "Family"],
+      "awards": {
+        "wins": 0,
+        "nominations": 0,
+        "text": ""
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 18,
+      "title": "The Muppet Christmas Carol",
+      "plot": "The Muppets perform their version of Dickens’s \"A Christmas Carol\", as Ebenezer Scrooge is visited by three ghosts on Christmas Eve and eventually changes his miserly ways.",
+      "runtime": 85,
+      "released": "1992-12-11T00:00:00Z",
+      "genres": ["Family", "Comedy", "Musical"],
+      "awards": {
+        "wins": 0,
+        "nominations": 0,
+        "text": ""
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 19,
+      "title": "The Nightmare Before Christmas",
+      "plot": "Jack Skellington, Pumpkin King of Halloween Town, discovers Christmas Town and tries to bring the holiday to his home — with unexpected results.",
+      "runtime": 76,
+      "released": "1993-10-29T00:00:00Z",
+      "genres": ["Animation", "Family", "Fantasy"],
+      "awards": {
+        "wins": 0,
+        "nominations": 0,
+        "text": ""
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 20,
+      "title": "Meet Me in St. Louis",
+      "plot": "In the months leading up to the World’s Fair and the family’s summer move, Christmas Eve falls and the Smith family navigates love, tradition and change in turn‑of‑the‑century St. Louis.",
+      "runtime": 113,
+      "released": "1944-10-20T00:00:00Z",
+      "genres": ["Musical", "Romance", "Family"],
+      "awards": {
+        "wins": 4,
+        "nominations": 1,
+        "text": "Won 4 Oscars"
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 21,
+      "title": "Bell, Book and Candle",
+      "plot": "A witch tries to cast a love spell on her neighbour while juggling friendship, family and a Christmas Eve social gathering in New York.",
+      "runtime": 103,
+      "released": "1958-12-17T00:00:00Z",
+      "genres": ["Romance", "Comedy", "Fantasy"],
+      "awards": {
+        "wins": 0,
+        "nominations": 1,
+        "text": "Nominated for 1 Oscar"
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 22,
+      "title": "Remember the Night",
+      "plot": "A district attorney picks up a shop‑lifter at Christmas time and instead of taking her to jail, invites her home to meet his family, leading to unexpected feelings and decisions.",
+      "runtime": 90,
+      "released": "1940-10-25T00:00:00Z",
+      "genres": ["Romance", "Drama", "Comedy"],
+      "awards": {
+        "wins": 0,
+        "nominations": 0,
+        "text": ""
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 23,
+      "title": "While You Were Sleeping",
+      "plot": "A lonely transit worker saves her crush from an on‑coming train just before Christmas. While he lies in a coma, she is mistaken for his fiancée, and his family invites her home for the holidays.",
+      "runtime": 103,
+      "released": "1995-04-14T00:00:00Z",
+      "genres": ["Romance", "Comedy"],
+      "awards": {
+        "wins": 0,
+        "nominations": 0,
+        "text": ""
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 24,
+      "title": "The Holiday",
+      "plot": "Two women, one from England and one from Los Angeles, swap homes for Christmas and find romance, healing and new beginnings over the holiday season.",
+      "runtime": 136,
+      "released": "2006-12-08T00:00:00Z",
+      "genres": ["Romance", "Comedy", "Drama"],
+      "awards": {
+        "wins": 0,
+        "nominations": 0,
+        "text": ""
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 25,
+      "title": "Love Actually",
+      "plot": "Several interlinked love stories unfold in the lead‑up to Christmas in London, intertwining the lives of Prime Minister, a rock star, a writer, office workers and children.",
+      "runtime": 135,
+      "released": "2003-11-14T00:00:00Z",
+      "genres": ["Romance", "Comedy", "Drama"],
+      "awards": {
+        "wins": 0,
+        "nominations": 0,
+        "text": ""
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 26,
+      "title": "The Family Stone",
+      "plot": "An uptight businesswoman visits her boyfriend’s bohemian family at Christmas and clashes with their traditions, but ultimately comes to understand the meaning of family and holiday togetherness.",
+      "runtime": 103,
+      "released": "2005-11-23T00:00:00Z",
+      "genres": ["Comedy", "Drama", "Romance"],
+      "awards": {
+        "wins": 0,
+        "nominations": 0,
+        "text": ""
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 27,
+      "title": "A Christmas Carol",
+      "plot": "In Victorian London on Christmas Eve, miser Ebenezer Scrooge is visited by ghosts of Christmas Past, Present and Future, and transforms his life and attitude toward others.",
+      "runtime": 96,
+      "released": "2009-11-06T00:00:00Z",
+      "genres": ["Animation", "Family", "Fantasy"],
+      "awards": {
+        "wins": 0,
+        "nominations": 0,
+        "text": ""
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 28,
+      "title": "Elf on the Shelf: An Elf’s Story",
+      "plot": "A toy elf (who watches children) comes to life and learns about the spirit of giving, Christmas traditions and kindness while guiding a family through the holidays.",
+      "runtime": 75,
+      "released": "2011-11-08T00:00:00Z",
+      "genres": ["Animation", "Family", "Comedy"],
+      "awards": {
+        "wins": 0,
+        "nominations": 0,
+        "text": ""
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 29,
+      "title": "National Lampoon’s Christmas Vacation",
+      "plot": "Clark Griswold wants a perfect family Christmas, but hilarious disasters ensue as guests arrive, traditions go awry and the house fills with chaos.",
+      "runtime": 98,
+      "released": "1989-12-01T00:00:00Z",
+      "genres": ["Comedy", "Family"],
+      "awards": {
+        "wins": 0,
+        "nominations": 0,
+        "text": ""
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    },
+    {
+      "_id": 30,
+      "title": "Die Hard",
+      "plot": "On Christmas Eve, NYPD officer John McClane visits his estranged wife’s office Christmas party in L.A., only to find terrorists taking the building hostage and he must save the day.",
+      "runtime": 132,
+      "released": "1988-07-15T00:00:00Z",
+      "genres": ["Action", "Thriller", "Christmas"],
+      "awards": {
+        "wins": 0,
+        "nominations": 0,
+        "text": ""
+      },
+      "plot_embedding_voyage_3_large": null,
+      "plot_embedding": null
+    }
+  ],
+  "comments": [],
+  "sessions": [],
+  "theaters": [],
+  "users": []
+}

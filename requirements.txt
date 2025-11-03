@@ -1,0 +1,4 @@
+python-dotenv==1.1.1
+voyageai==0.3.5
+langchain-voyageai==0.1.7
+langchain-mongodb==0.7.1
