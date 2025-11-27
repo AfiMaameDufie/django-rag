@@ -11,9 +11,7 @@
         "wins": 0,
         "nominations": 5,
         "text": "Nominated for 5 Oscars"
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 2,
@@ -26,9 +24,7 @@
         "wins": 3,
         "nominations": 4,
         "text": "Won 3 Oscars"
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 3,
@@ -41,9 +37,7 @@
         "wins": 1,
         "nominations": 0,
         "text": "Won 1 Oscar (for the song “White Christmas”)"
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 4,
@@ -56,9 +50,7 @@
         "wins": 0,
         "nominations": 1,
         "text": "Nominated for 1 Oscar"
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 5,
@@ -71,9 +63,7 @@
         "wins": 0,
         "nominations": 0,
         "text": ""
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 6,
@@ -86,9 +76,7 @@
         "wins": 0,
         "nominations": 0,
         "text": ""
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 7,
@@ -101,9 +89,7 @@
         "wins": 0,
         "nominations": 1,
         "text": "Nominated for 1 Oscar (Makeup)"
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 8,
@@ -116,9 +102,7 @@
         "wins": 0,
         "nominations": 0,
         "text": ""
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 9,
@@ -131,9 +115,7 @@
         "wins": 0,
         "nominations": 0,
         "text": ""
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 10,
@@ -146,9 +128,7 @@
         "wins": 0,
         "nominations": 0,
         "text": ""
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 11,
@@ -161,9 +141,7 @@
         "wins": 0,
         "nominations": 0,
         "text": ""
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 12,
@@ -176,9 +154,7 @@
         "wins": 0,
         "nominations": 0,
         "text": ""
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 13,
@@ -191,9 +167,7 @@
         "wins": 0,
         "nominations": 0,
         "text": ""
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 14,
@@ -206,9 +180,7 @@
         "wins": 1,
         "nominations": 2,
         "text": "Won 1 Oscar"
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 15,
@@ -221,9 +193,7 @@
         "wins": 0,
         "nominations": 0,
         "text": ""
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 16,
@@ -236,9 +206,7 @@
         "wins": 1,
         "nominations": 0,
         "text": "Won 1 Oscar"
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 17,
@@ -251,9 +219,7 @@
         "wins": 0,
         "nominations": 0,
         "text": ""
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 18,
@@ -266,9 +232,7 @@
         "wins": 0,
         "nominations": 0,
         "text": ""
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 19,
@@ -281,9 +245,7 @@
         "wins": 0,
         "nominations": 0,
         "text": ""
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 20,
@@ -296,9 +258,7 @@
         "wins": 4,
         "nominations": 1,
         "text": "Won 4 Oscars"
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 21,
@@ -311,9 +271,7 @@
         "wins": 0,
         "nominations": 1,
         "text": "Nominated for 1 Oscar"
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 22,
@@ -326,9 +284,7 @@
         "wins": 0,
         "nominations": 0,
         "text": ""
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 23,
@@ -341,9 +297,7 @@
         "wins": 0,
         "nominations": 0,
         "text": ""
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 24,
@@ -356,9 +310,7 @@
         "wins": 0,
         "nominations": 0,
         "text": ""
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 25,
@@ -371,9 +323,7 @@
         "wins": 0,
         "nominations": 0,
         "text": ""
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 26,
@@ -386,9 +336,7 @@
         "wins": 0,
         "nominations": 0,
         "text": ""
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 27,
@@ -401,9 +349,7 @@
         "wins": 0,
         "nominations": 0,
         "text": ""
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 28,
@@ -416,9 +362,7 @@
         "wins": 0,
         "nominations": 0,
         "text": ""
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 29,
@@ -431,9 +375,7 @@
         "wins": 0,
         "nominations": 0,
         "text": ""
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     },
     {
       "_id": 30,
@@ -446,9 +388,7 @@
         "wins": 0,
         "nominations": 0,
         "text": ""
-      },
-      "plot_embedding_voyage_3_large": null,
-      "plot_embedding": null
+      }
     }
   ],
   "comments": [],

@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'festive_flix',
+    'festive_flix',  # add app to registered apps
 ]
 
 MIDDLEWARE = [
@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'django_rag_app.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django_mongodb_backend',
-        'HOST': 'mongodb+srv://abigailgbadago:1y5TRlV7GmIjrVwl@cluster0.hpljptt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
+        'HOST': ['REPLACE_WITH_YOUR_OWN_MONGO_URI'],
         'NAME': 'sample_mflix',
     },
 }

@@ -16,9 +16,5 @@ class Movie(models.Model):
     awards = EmbeddedModelField(Award, null=True, blank=True)
     genres = ArrayField(models.CharField(max_length=100), null=True, blank=True)
 
-    class Meta:
-        db_table = "movies"
-        managed = False
-
     def __str__(self):
         return self.title

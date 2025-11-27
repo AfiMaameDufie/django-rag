@@ -16,31 +16,28 @@ def search_holiday_movies(request):
     results = []
 
     if query:
-        # use our API keys
+        # use API keys
         voyage_api_key = os.getenv("VOYAGE_API_KEY")
-        connection_string = os.getenv("MONGO_URI")
+        connection_string = os.getenv("MONGO_URI") 
 
         # Check if environment variables are loaded
-        if not voyage_api_key:
-            print("ERROR: VOYAGE_API_KEY not found in .env file")
-            exit(1)
-        if not connection_string:
-            print("ERROR: MONGO_URI not found in .env file")
-            exit(1)
+        assert voyage_api_key, "ERROR: VOYAGE_API_KEY not found in .env file"
+        assert connection_string, "ERROR: MONGO_URI not found in .env file"
 
-        # this is our embeddings object.
+        # This is the embedding object.
         embeddings = VoyageAIEmbeddings(
             voyage_api_key=voyage_api_key,
             model="voyage-3-lite"
         )
 
-        # this is your database.collection
-        namespace = "festive_flix_db.holiday_movies_collection"
+        # specify our database and collection
+        client = MongoClient(os.getenv("MONGO_URI"))
+        database = client["festive_flix_db"]
+        collection = database["holiday_movies_collection"]
 
-        # vector store with our embeddings model
-        vector_store = MongoDBAtlasVectorSearch.from_connection_string(
-            connection_string=connection_string,
-            namespace=namespace,
+        # vector store with the embeddings model
+        vector_store = MongoDBAtlasVectorSearch(
+            collection=collection,
             embedding_key="embedding",
             index_name="vector_index",
             text_key="plot",
@@ -73,7 +70,7 @@ def search_holiday_movies(request):
             print(f"Error occurred: {e}")
             results = []
 
-        # Debug output to console
+        # Print output to console
         if results:
             print(f"\n=== Search Results for '{query}' ===")
             for i, result in enumerate(results, 1):

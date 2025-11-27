@@ -10,14 +10,9 @@ voyage_api_key = os.getenv("VOYAGE_API_KEY")
 connection_string = os.getenv("MONGO_URI")
 
 # Check if environment variables are loaded
-if not voyage_api_key:
-    print("ERROR: VOYAGE_API_KEY not found in .env file")
-    exit(1)
-if not connection_string:
-    print("ERROR: MONGO_URI not found in .env file")
-    exit(1)
+assert voyage_api_key, "ERROR: VOYAGE_API_KEY not found in .env file"
+assert connection_string, "ERROR: MONGODB_URI not found in .env file"
 
-print("Environment variables loaded successfully")
 
 # Connect to the Atlas cluster
 try:
@@ -80,4 +75,3 @@ if results:
         print("-" * 50)
 else:
     print("No results found.")
-
