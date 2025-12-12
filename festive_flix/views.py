@@ -31,7 +31,7 @@ def search_holiday_movies(request):
         )
 
         # specify our database and collection
-        client = MongoClient(os.getenv("MONGO_URI"))
+        client = MongoClient(connection_string, appname="devrel.content.django_rag")
         database = client["festive_flix_db"]
         collection = database["holiday_movies_collection"]
 

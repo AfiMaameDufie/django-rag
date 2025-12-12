@@ -7,7 +7,7 @@ load_dotenv()
 
 # get the environment variable and connect
 connection_string = os.getenv("MONGODB_URI")
-client = MongoClient(connection_string)
+client = MongoClient(connection_string, appname="devrel.content.django_rag")
 
 # specify the database and collection
 database = client["festive_flix_db"]
