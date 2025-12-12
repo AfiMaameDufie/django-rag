@@ -16,7 +16,7 @@ assert connection_string, "ERROR: MONGODB_URI not found in .env file"
 
 # Connect to the Atlas cluster
 try:
-    client = MongoClient(os.getenv("MONGO_URI"))
+    client = MongoClient(connection_string, appname="devrel.content.django_rag")
     
     collection = client["festive_flix_db"]["holiday_movies_collection"]
 
